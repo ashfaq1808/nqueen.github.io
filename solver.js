@@ -60,11 +60,11 @@ class Queen {
             const value = column.innerHTML;
 
             if (value == queen) {
-                column.style.backgroundColor = "#FB5607";
+                column.style.backgroundColor = "#FF0000";
                 currentColumn.innerHTML = "-"
                 return false;
             }
-            column.style.backgroundColor = "#ffca3a";
+            column.style.backgroundColor = "#808080";
             await q.delay();
         }
 
@@ -75,11 +75,11 @@ class Queen {
             const value = column.innerHTML;
 
             if (value == queen) {
-                column.style.backgroundColor = "#fb5607";
+                column.style.backgroundColor = "#FF0000";
                 currentColumn.innerHTML = "-"
                 return false;
             }
-            column.style.backgroundColor = "#ffca3a";
+            column.style.backgroundColor = "#808080";
             await q.delay();
         }
 
@@ -91,11 +91,11 @@ class Queen {
             const value = column.innerHTML;
 
             if (value == queen) {
-                column.style.backgroundColor = "#FB5607";
+                column.style.backgroundColor = "#FF0000";
                 currentColumn.innerHTML = "-"
                 return false;
             }
-            column.style.backgroundColor = "#ffca3a";
+            column.style.backgroundColor = "#808080";
             await q.delay();
         }
         return true;
@@ -107,8 +107,8 @@ class Queen {
             const row = table.firstChild.childNodes[j];
             for (let k = 0; k < n; ++k)
                 (j + k) & 1
-                    ? (row.getElementsByTagName("td")[k].style.backgroundColor = "#FF9F1C")
-                    : (row.getElementsByTagName("td")[k].style.backgroundColor = "#FCCD90");
+                    ? (row.getElementsByTagName("td")[k].style.backgroundColor = "#FFFFFF")
+                    : (row.getElementsByTagName("td")[k].style.backgroundColor = "#A0522D");
         }
     }
 
@@ -214,8 +214,8 @@ playButton.onclick = async function visualise() {
             for (let j = 0; j < n; ++j) {
                 const col = row.insertCell(j); // inserting jth column
                 (i + j) & 1
-                    ? (col.style.backgroundColor = "#FF9F1C")
-                    : (col.style.backgroundColor = "#FCCD90");
+                    ? (col.style.backgroundColor = "#FFFFFF")
+                    : (col.style.backgroundColor = "#A0522D");
                 col.innerHTML = "-";
                 col.style.border = "0.3px solid #373f51";
             }
