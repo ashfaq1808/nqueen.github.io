@@ -15,7 +15,7 @@ body{
     top: -30px;
     width: 100%;
     background-color: #A0522D;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .header h1{
@@ -44,7 +44,7 @@ div.n-queen {
     font-size: 14px;
     padding: 4px;
     border: none;
-    border-bottom: 2px solid #ff7300;
+    border-bottom: 2px solid #A0522D;
     outline: none;
     background: transparent;
 }
@@ -53,7 +53,7 @@ div.n-queen {
     position: absolute;
     top: 4px;
     left: 0px;
-    color: #ff7300;
+    color: #A0522D;
     font-size: 14px;
     font-weight: bold;
     pointer-events: none;
@@ -82,7 +82,7 @@ div.n-queen {
     margin: 0 auto;
     height: 2px;
     border-radius: 7px;
-    background: linear-gradient(90deg, #ff7300 70%, #ff7300 60%);
+    background: linear-gradient(90deg, #A0522D 70%, #A0522D 60%);
     outline: none;
 }
 
@@ -112,7 +112,7 @@ div.n-queen {
     position: relative;
     top: -2.5px;
     cursor: pointer;
-    background-color: #ff7300;
+    background-color: #A0522D;
     border-radius: 50%;
     z-index: 2;
 }
@@ -122,7 +122,7 @@ div.n-queen {
     height: 10px;
     width: 15px;
     z-index: 1;
-    color: #00eeff;
+    color: #A0522D;
 }
 
 .play-button {
@@ -131,10 +131,10 @@ div.n-queen {
     left: 35%;
     border: none;
     outline: none;
-    color: #000000;
+    color: #ffffff;
     width: 80px;
     height: 35px;
-    background-color: #96ff6c;
+    background-color: #A0522D;
     border-radius: 10px;
     font-size: 16px;
     font-family: 'Trebuchet MS';
@@ -155,7 +155,7 @@ div.n-queen {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    color: #ff7300;
+    color: #A0522D;
 }
 
 
@@ -202,7 +202,7 @@ h4 {
     top: -5px;
     padding: 8px;
     width: 100%;
-    background-color: #000000;
+    background-color: #A0522D;
     align-self: center;
     color: #ffffff;
     text-align: center;
